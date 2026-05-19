@@ -38,6 +38,7 @@ def test_pytorch_gpu():
         # Sync to make sure operation completes and verify
 
         torch.cuda.synchronize()
+        
         print(f"Result tensor device: {z.device}")
         print("\n✅ Success! Your GPU is working perfectly with PyTorch.")
         
