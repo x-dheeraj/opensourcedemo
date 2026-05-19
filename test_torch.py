@@ -1,5 +1,5 @@
 import torch
-print(torch.rnad(5, 3))
+print(torch.rand(5, 3))
 
 
 #Run this in terminal
